@@ -7,10 +7,10 @@ declared-services:
     label: cloudantNoSQLDB
     plan: Lite
 applications:
-- name: wConversationMaster
+- name: CnxConversationAgent
   memory: 1024M
   instances: 1
-  host: wConversationMaster
+  host: CnxConversationAgent
   services:
   - wcm-conversation
   - wcm-cloudant
